@@ -1,5 +1,5 @@
 #---------Basic Linear regression excercise-------------------------#
-#---------completed as part of the havardx ds accreditiation--------#
+#---------completed as part of the havardx ds accreditation--------#
 
 #import packages
 library(tidyverse)
@@ -37,4 +37,4 @@ fit$coef
 y_hat <- fit$coef[1] + fit$coef[2]*test_set$father
 lin_loss <-mean((y_hat - test_set$son)^2)
 lin_loss
-1
+
